@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>login and sign up page</title>
+</head>
+<body>
+    <div class="wave-container">
+        <div class="child-1"></div>
+        <div class="child-2"></div>
+        <div class="child-3"></div>
+        <img src="pics/mug.png" alt="" id="pic">
+        <img src="pics/laptop.png" alt="" id="pic1">
+        <img src="pics/pot.png" alt=""
+        id="pic2">
+    </div>
+    <nav>
+    <div class="logo">
+        <img src="pics/logo.png" alt="">
+    </div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">More</a></li>
+    </ul>
+    <button>Home</button>
+    </nav>
+    <div class="main-user-input">
+        <button onclick="login()" id="loginbtn">Login</button>
+        <button onclick="sign()" id="signup" class="">Sign Up</button>
+        <div id="login_page">
+            <input type="text" name="username" id="username" placeholder="Username" >
+            <i class="fa-solid fa-user" id="user_icon"></i>
+            <input type="password" name="username" id="password" placeholder="password" >
+            <i class="fa-solid fa-lock" id="lock"></i>
+            <i class="fa-solid fa-eye" id="show_password"></i>
+            <p class="fogot_password"><a href="#">Forgot your password ?</a></p>
+            <button class="login_btn">Login</button>
+        </div>
+        <div id="sign_up">
+            <input type="text" name="" id="username" placeholder="Username">
+            <i class="fa-solid fa-user" id="user_icon"></i>
+            <input type="text" name="" id="username" placeholder="Email" class="sign_up_email">
+            <i class="fa-solid fa-envelope demo" id="user_icon"></i>
+            <input type="password" name="username" id="password" placeholder="password" class="demo1" >
+            <i class="fa-solid fa-lock demo2" id="lock"></i>
+            <button class="signUp-btn">Sign Up</button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e2442d806f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

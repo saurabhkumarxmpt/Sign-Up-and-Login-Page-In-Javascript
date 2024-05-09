@@ -1,0 +1,336 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wave-container{
+
+    position: relative;
+    height: 100vh;
+    width: 60%;
+    float: right;
+    /* background-color: aqua; */
+    overflow: hidden;
+    z-index:1;
+}
+.child-1{
+
+    height: 150vh;
+    width: 150%;
+    border-radius: 100%;
+    position: absolute;
+    background-color:rgb(93, 173, 226);
+    margin:-140px 60px;
+    filter: opacity(90%);
+
+}
+
+.child-2{
+
+    height: 140vh;
+    width: 140%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(133, 193, 233);
+    margin:-110px 180px;
+    
+}
+
+.child-3{
+
+    height: 120vh;
+    width: 120%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(174, 214, 241);
+    margin:-40px 300px;
+    opacity: 60%;
+
+}
+
+#pic{
+
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    margin: 29% 28%;
+}
+
+#pic1{
+
+    position: absolute;
+    height: 200px;
+    width: 280px;
+    margin: 25% 30%;
+
+}
+
+#pic2{
+
+    position: absolute;
+    height: 120px;
+    width: 80px;
+    margin: 34% 56%;
+
+}
+
+nav{
+
+
+    height: 75px;
+    width: 100%;
+    /* background-color:red; */
+    z-index: 999;
+    position: relative;
+}
+
+nav > div > img{
+
+    height: 50px;
+    width: 50px;
+    padding: 15px 30px;
+}
+
+nav > ul{
+
+    list-style: none;
+    position: absolute;
+    margin: -55px 110px;
+}
+
+nav > ul > li{
+
+    float: left;
+    margin-left: 50px;
+
+
+}
+nav > ul > li > a{
+
+    text-decoration: none;
+    color:rgb(93, 173, 226);
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+}
+
+nav > ul > li > a:hover{
+
+    text-decoration: underline;
+}
+nav >  button{
+
+    float: right;
+    position: absolute;
+    margin: -65px 85%;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 40px;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    background-color:rgb(93, 173, 226);
+    color: #fff;
+}
+
+.main-user-input{
+
+    height: 500px;
+    width: 500px;
+    /* background-color: green; */
+    margin: 30px 50px;
+    position: relative;
+}
+
+#loginbtn{
+
+    height: 50px;
+    width: 120px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(103, 103, 240);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top:7% ;
+    left:20% ;
+    font-weight:600 ;
+    color:rgb(103, 103, 240) ;
+}
+
+#signup{
+
+    height: 50px;
+    width: 120px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(126, 123, 123);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 7%;
+    left: 55%;
+    color: rgb(126, 123, 123) ;
+}
+
+#login_page{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 20%;
+    /* background-color: red; */
+    display: block;
+}
+
+#username{
+
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 4%;
+    left: 14%;
+    padding-left: 50px;
+    outline: none;
+    border-radius: 30px;
+    border: 0.5px solid rgb(103, 103, 240);
+    font-size: 17px;
+    font-family:  "Inter", sans-serif;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 5px 9px 13px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 9px 13px -5px rgba(0,0,0,0.75);
+box-shadow: 5px 9px 13px -5px rgba(0,0,0,0.75);
+}
+
+#user_icon{
+
+    font-size: 27px;
+    position: absolute;
+    top:6%;
+    left: 17%;
+    color: rgb(95, 95, 95);
+}
+
+#password{
+
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    padding-left: 50px;
+    outline: none;
+    border-radius: 30px;
+    border: 0.5px solid rgb(103, 103, 240);
+    font-size: 17px;
+    font-family:  "Inter", sans-serif;
+    letter-spacing: 1px;
+    /* padding-right: px; */
+    margin-right: 100px ;
+    -webkit-box-shadow: 5px 9px 13px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 9px 13px -5px rgba(0,0,0,0.75);
+    box-shadow: 5px 9px 13px -5px rgba(0,0,0,0.75);
+}
+
+#lock{
+
+    font-size: 27px;
+    position: absolute;
+    top:27%;
+    left: 17%;
+    color: rgb(95, 95, 95);
+
+}
+
+#show_password{
+
+     font-size:20px;
+    position: absolute;
+    top:28%;
+    left: 76%;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+
+.fogot_password > a{
+
+    color: rgb(103, 103, 240);
+    font-family:"Inter", sans-serif ;
+    position: absolute;
+    top:42% ;
+    text-decoration: none;
+    left:16% ;
+}
+
+.login_btn{
+
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top:40% ;
+    left:63% ;
+    cursor: pointer;
+    background-color: rgb(103, 103, 240);
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+#sign_up{
+
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 20%;
+    /* background-color: rgb(192, 58, 65); */
+    display: none;
+}
+
+.sign_up_email{
+
+    margin-top:15%;
+}
+
+.demo{
+
+    margin-top: 15%;
+}
+
+.demo1{
+    margin-top: 13%;
+}
+
+.demo2{
+    margin-top: 13%;
+}
+
+.signUp-btn{
+
+    height: 37px;
+    width: 170px;
+    position: absolute;
+    top:60% ;
+    left:32% ;
+    border: none;
+    border-radius: 30px;
+    background-color:rgb(103, 103, 240) ;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.signUp-btn:hover{
+
+    background-color: rgb(33, 33, 230);
+
+}
+
+.sign_style{
+
+    border-bottom: 2px solid rgb(103, 103, 240);
+    color:rgb(103, 103, 240) ;
+}
